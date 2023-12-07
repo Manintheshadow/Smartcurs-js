@@ -23,7 +23,16 @@
       }
     </style>
   
-  <script src="script.js"></script>
+  <script type="module">
+    fetch('script.js')
+      .then(response => response.text())
+      .then(scriptText => {
+         const scriptElement = document.createElement('script');
+         scriptElement.type = 'text/javascript';
+         scriptElement.text = scriptText;
+         document.head.appendChild(scriptElement);
+      });
+  </script>
   </head>
   <body>
     <h1>JavaScript Fundamentals – Part 1</h1>
