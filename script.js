@@ -10,7 +10,7 @@ console.log(myName + " " + age);
 
 let JavascriptIsFun = true;
 
-console.log(typeof true); 
+console.log(typeof true);
 JavascriptIsFun = 23;
 
 console.log(typeof JavascriptIsFun);
@@ -32,8 +32,8 @@ console.log(age);
 
 let now = 2037;
 const ageJonah = now -1991;
-const ageSarah = now -2018;
-
+const ageSarah = now -2021;
+//Math Operators
 console.log(ageJonah);
 console.log(ageSarah);
 console.log(ageJonah, ageSarah);
@@ -41,11 +41,35 @@ console.log(ageJonah * 2, ageJonah / 10, 2 ** 3)
 
 //Strings
 
-const firstName = "Ion"
-const lastName= "Harry"
-const spatiu = " "
+const firstName = "Ion";
+const lastName= "Harry";
+const space = " ";
 console.log(firstName, lastName);
 console.log(firstName + lastName);
-console.log(firstName + spatiu + lastName);
+console.log(firstName + space + lastName);
 console.log(firstName + " " + lastName);
+
+// Assignment operators;
+let x = 10 + 5; //15
+x +=10; // x = x +10 //25
+x -= 5 //20
+x *=5 //100
+console.log(x)
+
+x++ //x= x + 1
+x--
+x--
+console.log(x);
+
+//Comparison operators
+console.log(ageJonah >= ageSarah)
+console.log(ageSarah >= 18)
+
+const isFullAge = ageSarah >= 18;
+
+console.log(isFullAge)
+
+console.log(now - 1991 > now - 2021);
+
+
 
