@@ -84,9 +84,23 @@ const stringNou = "Eu sunt " + numelePersoanei + ", job , care are " + (curentYe
 console.log(stringNou)
 
 //template literal
-const stringMainou = `Eu sunt - un profesor, care are` + `${curentYear - anulNasterii}`//repeti manevra 
+const stringMainou = `Eu sunt $- un profesor, care are` + `${curentYear - anulNasterii}`//repeti manevra 
 
 console.log(`Acesta este\n\
 un string\n\
 in mai multe randuri`)
+//se poate scrie si  fara \n\
+
+//if si else
+
+const age = 14;
+
+if (age >=18) {
+console.log("Esti destul de in varsta pentru a conduce o masina")
+} else {
+console.log("Nu esti destul de in varsta")
+}
+
+
+
 
