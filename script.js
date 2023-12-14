@@ -46,8 +46,7 @@ const lastName= "Harry";
 const space = " ";
 console.log(firstName, lastName);
 console.log(firstName + lastName);
-console.log(firstName + space + lastName);
-console.log(firstName + " " + lastName);
+// in loc de space poti pune " "
 
 // Assignment operators;
 let x = 10 + 5; //15
@@ -71,5 +70,23 @@ console.log(isFullAge)
 
 console.log(now - 1991 > now - 2021);
 
+const averageAge = ageJonah + ageSarah / 2
+console.log(ageJonah, ageSarah, averageAge);
 
+const numelePersoanei = "Ion";
+const job ="profesor";
+const anulNasterii = 1991;
+const curentYear = 2037;
+
+//concatinare
+const stringNou = "Eu sunt " + numelePersoanei + ", job , care are " + (curentYear - anulNasterii) + " ani."
+
+console.log(stringNou)
+
+//template literal
+const stringMainou = `Eu sunt - un profesor, care are` + `${curentYear - anulNasterii}`//repeti manevra 
+
+console.log(`Acesta este\n\
+un string\n\
+in mai multe randuri`)
 
