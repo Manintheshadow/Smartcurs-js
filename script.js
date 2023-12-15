@@ -93,13 +93,40 @@ in mai multe randuri`)
 
 //if si else
 
-const age = 14;
 
-if (age >=18) {
+
+const Age = 14;
+
+if (Age >=18) {
 console.log("Esti destul de in varsta pentru a conduce o masina")
 } else {
-console.log("Nu esti destul de in varsta")
+    console.log(`Nu ai varsta necesara. trebuie sa mai cresti ${18-Age} ani`)
 }
+
+const yearbirth = 1991;
+
+let century;
+if (yearbirth <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(`Ai fost nascut in secolul ${century}`)
+
+//convertire stringuri in numere 
+
+const inputYear = "1991"; 
+console.log(Number(inputYear) + 18)  //+18, inputyear sub forma de string
+
+//convertire numere in stringuri
+const numepersoana ="Ion"
+console.log(Number(numepersoana))
+console.log(String(23),23)//imi arata in consola un un string un numar
+
+
+
+
+
 
 
 
