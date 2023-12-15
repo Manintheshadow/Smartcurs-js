@@ -113,7 +113,7 @@ if (yearbirth <= 2000) {
 }
 console.log(`Ai fost nascut in secolul ${century}`)
 
-//convertire stringuri in numere 
+//Type conversion
 
 const inputYear = "1991"; 
 console.log(Number(inputYear) + 18)  //+18, inputyear sub forma de string
@@ -123,6 +123,15 @@ const numepersoana ="Ion"
 console.log(Number(numepersoana))
 console.log(String(23),23)//imi arata in consola un un string un numar
 
+// Type coercion
+
+console.log("Eu am " + 23 + " ani")
+console.log("23" - "10" - 3)
+console.log("23" / "2")
+
+let n = "1" + 1;
+n -= 1
+console.log(n)
 
 
 
