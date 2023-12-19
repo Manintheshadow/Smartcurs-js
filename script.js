@@ -134,9 +134,18 @@ n -= 1
 console.log(n)
 
 
+// 5 valori : 0,"", undefined, null, NaN
 
+const salariu = 130;
+if (salariu) {
+    console.log("Ai luat banii. Nu ii cheltui pe toti!");
+} else {
+    console.log("Vin camatarii dupa tine, da-le banii.");
+}
 
-
-
-
-
+let inaltime = 1.82;
+if (inaltime) {
+    console.log("Acum variabila este definita")
+} else {
+    console.log("Variabila nu este definita")
+}
