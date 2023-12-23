@@ -149,3 +149,51 @@ if (inaltime) {
 } else {
     console.log("Variabila nu este definita")
 }
+
+let digit = 18;
+
+if (digit === 18)
+
+if (digit === 18) console.log("Ai devenit un adult (operator strict)")
+
+if (digit == 18) console.log("Ai devenit un adult (operator liber)")
+
+const favorite =Number(prompt("Care este numarul tau favorit"))
+console.log(favorite)
+console.log(typeof favorite)
+
+if (favorite == 23) { // === -> "23" nu este egal cu numarul 23
+    console.log("Numarul meu favorit este 23.")
+}else if (favorite == 7) {
+    console.log("Cifra 7 se afla si ea printre favoritele mele")
+}else if (favorite == 9){
+    console.log("Nu e cifra mea favorita")
+}else {
+console.log("Numarul pe care l-ai introdus nu este 23, nici 9, nici 7.")
+}
+
+if (favorite !== 23) { console.log("De ce nu ai ales numarul 23?")} // ->!= 9 != 23 se  executa linia 
+
+const hasDriversLicense = true; //A = TRUE
+const hasGoodVision = false; //B = False
+
+console.log(hasDriversLicense && hasGoodVision) //&& operatorul logic AND
+
+console.log(hasDriversLicense || hasGoodVision) // || operator logic OR 
+
+console.log(!hasDriversLicense) // operatorul logic NOT
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if (shouldDrive){
+    console.log("Sarah ar trebui sa fie la volan")
+} else{
+console.log("Sarah nu ar trebui sa fie in masina")
+}
+
+const isTired = false; //C
+if (hasDriversLicense && hasGoodVision && !isTired) {
+console.log("Sarah ar trebui sa fie la volan")
+} else {
+console.log("Sarah nu ar trebui sa conduca masina")
+}

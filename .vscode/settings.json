@@ -8,10 +8,12 @@
         "constvarstanecesara",
         "inputyear",
         "isold",
+        "istired",
         "licence",
         "Mainou",
         "numepersoana",
         "parampam",
+        "shoulddrive",
         "yearbirth"
     ]
 }
