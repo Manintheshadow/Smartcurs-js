@@ -2,7 +2,7 @@
 if (js === "boo") alert("Lock the door!");
 
 console.log(40 + 8 * 2 + 16 + 53);
-let myName = Alex;
+let myName = "Alex";
 let age = 35;
 console.log(myName + " " + age);
 
@@ -41,11 +41,10 @@ console.log(ageJonah * 2, ageJonah / 10, 2 ** 3)
 
 //Strings
 
-const firstName = "Ion";
+const Name = "Ion";
+
 const lastName= "Harry";
 const space = " ";
-console.log(firstName, lastName);
-console.log(firstName + lastName);
 // in loc de space poti pune " "
 
 // Assignment operators;
@@ -73,13 +72,13 @@ console.log(now - 1991 > now - 2021);
 const averageAge = ageJonah + ageSarah / 2
 console.log(ageJonah, ageSarah, averageAge);
 
-const numelePersoanei = "Ion";
+const numedeNastere = "Ion";
 const job ="profesor";
 const anulNasterii = 1991;
 const curentYear = 2037;
 
 //concatinare
-const stringNou = "Eu sunt " + numelePersoanei + ", job , care are " + (curentYear - anulNasterii) + " ani."
+const stringNou = "Eu sunt " + numedeNastere + ", job , care are " + (curentYear - anulNasterii) + " ani."
 
 console.log(stringNou)
 
@@ -186,7 +185,7 @@ console.log(!hasDriversLicense) // operatorul logic NOT
 const shouldDrive = hasDriversLicense && hasGoodVision;
 
 if (shouldDrive){
-    console.log("Sarah ar trebui sa fie la volan")
+console.log("Sarah ar trebui sa fie la volan")
 } else{
 console.log("Sarah nu ar trebui sa fie in masina")
 }
@@ -197,3 +196,40 @@ console.log("Sarah ar trebui sa fie la volan")
 } else {
 console.log("Sarah nu ar trebui sa conduca masina")
 }
+
+const day = `paliuga`;
+switch (day) {    //day === 'luni'
+case `luni`: //if
+console.log("luni este prima zi din saptamana")
+break
+case `marti`: //else if 
+console.log("Marti mergem la sala sa tragem de fiare");
+break
+case `miercuri`://else if 
+console.log("Miercuri ne ducem la servici")
+break
+case `joi`://else if 
+case `vineri`:
+console.log("Ne odihnim")
+break
+case `sambata`://else if 
+console.log("Sambata ma plimb prin parc")
+break 
+case "duminica"://else if 
+console.log("Duminica scoatem femeia in oras")
+break
+default: //else
+console.log("Ai învățat ceva nou. Bravo!");
+break; }
+
+if (day==="luni"){
+    console.log("Luni este inceput de saptamana")
+}
+else if (day ==="marti"){
+    console.log("Marti mergem la sala")}
+
+    else if (day ==="miercuri")
+        console.log("Miercuri mergem in oras")
+
+        else if (day ==="joi")
+        console.log("Joi lenevim")
